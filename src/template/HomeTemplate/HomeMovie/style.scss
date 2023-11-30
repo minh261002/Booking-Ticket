@@ -1,0 +1,13 @@
+.home-movie{
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+    img{
+        width: 100%;
+    }
+    .slick-arrow{
+        z-index: 1;
+        &:before{
+            color: #000;
+        }
+    }
+}

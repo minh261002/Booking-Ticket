@@ -352,5 +352,49 @@
         ],
         "dateTime": "2023-11-30T09:43:52.1573513+07:00",
         "messageConstants": null
+        },
+    "cinema":{
+        "statusCode": 200,
+        "message": "Xử lý thành công!",
+        "content": [
+        {
+        "maHeThongRap": "BHDStar",
+        "tenHeThongRap": "BHD Star Cineplex",
+        "biDanh": "bhd-star-cineplex",
+        "logo": "http://movieapi.cyberlearn.vn/hinhanh/bhd-star-cineplex.png"
+        },
+        {
+        "maHeThongRap": "CGV",
+        "tenHeThongRap": "cgv",
+        "biDanh": "cgv",
+        "logo": "http://movieapi.cyberlearn.vn/hinhanh/cgv.png"
+        },
+        {
+        "maHeThongRap": "CineStar",
+        "tenHeThongRap": "CineStar",
+        "biDanh": "cinestar",
+        "logo": "http://movieapi.cyberlearn.vn/hinhanh/cinestar.png"
+        },
+        {
+        "maHeThongRap": "Galaxy",
+        "tenHeThongRap": "Galaxy Cinema",
+        "biDanh": "galaxy-cinema",
+        "logo": "http://movieapi.cyberlearn.vn/hinhanh/galaxy-cinema.png"
+        },
+        {
+        "maHeThongRap": "LotteCinima",
+        "tenHeThongRap": "Lotte Cinema",
+        "biDanh": "lotte-cinema",
+        "logo": "http://movieapi.cyberlearn.vn/hinhanh/lotte-cinema.png"
+        },
+        {
+        "maHeThongRap": "MegaGS",
+        "tenHeThongRap": "MegaGS",
+        "biDanh": "megags",
+        "logo": "http://movieapi.cyberlearn.vn/hinhanh/megags.png"
         }
+        ],
+        "dateTime": "2023-11-30T11:43:48.2957255+07:00",
+        "messageConstants": null
+    }
 }

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import 'boxicons';
+import './index.css'
 
 import HomePage from "./pages/HomePage"
 

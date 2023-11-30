@@ -1,0 +1,97 @@
+.movie-list{    
+    .box-item{
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+        animation: slide 0.3s ease-in-out;
+        .img-movie{
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .box-option{
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--black-color);
+            text-align: center;
+            padding: 12px 0;
+            animation:  slide 0.3s ease-in-out;
+            .box-movie-name{
+                color: var(--white-color);
+                font-size: 16px;
+                font-weight: var(--font-medium);
+            }
+
+            .box-movie-btn{
+                margin-top: 12px;
+                justify-content: center;
+                gap: 12px;
+                button{
+                    background: red;
+                    padding: 6px;
+                    border-radius: 4px;
+
+                    a{
+                        color: var(--white-color);
+                        font-size: 14px;
+                        font-weight: var(--font-medium);
+                    }
+                }
+            }
+        }
+        &:hover {
+            .box-option {
+                display: block;
+                transition: opacity 0.3s ease-in-out;
+            }
+            .img-movie {
+                opacity: 0.8;
+                transition: opacity 0.3s ease-in-out;
+            }
+        }
+    }
+    .set{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--primary-color);
+        font-size: 15px;
+        font-weight: var(--font-medium);
+        color: var(--white-color);
+        border-radius: 0 6px  6px 0;
+        padding: 8px;
+    }
+}
+
+
+@keyframes slide{
+    from{
+        transform: translateY(50);
+    }to{
+        transform: translateY(0);
+    }
+}
+
+.ant-tabs-tab-btn{
+    color: var(--black-color);
+    font-weight: var(--font-medium);
+    font-size: 18px;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: var(--primary-color);
+    font-weight: var(--font-medium);
+    font-size: 18px;
+}
+
+.ant-tabs .ant-tabs-tab:hover{
+    color: var(--primary-color);
+}
+
+.ant-tabs-top >.ant-tabs-nav .ant-tabs-ink-bar{
+    background-color: var(--primary-color) !important;
+}
